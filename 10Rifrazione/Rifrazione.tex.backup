@@ -1,0 +1,114 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{geometry}
+%\usepackage{hyperref}
+\usepackage{makeidx}
+\usepackage{microtype}
+\usepackage{subfig}
+\usepackage{tabularx}
+\usepackage{url}
+\usepackage{varioref}
+\usepackage[italian]{babel}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{mathtools}
+\usepackage{booktabs}
+\usepackage{gensymb}
+
+
+\title{Laboratorio I: Misura dell'indice di rifrazione\\Acqua e plexiglass\\
+\begin{large}
+Dipartimento di Fisica E.Fermi - Università di Pisa
+\end{large}}
+
+\author{Di Ubaldo Gabriele \\Torosantucci Andrea \\ Giannelli Martina}
+\date{9 Marzo 2016}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduzione}
+\subsection{Teoria}
+\textbf{Obiettivo:} Misurare gli indici di rifrazione dell'acqua e del plexiglass.\\
+\textbf{Plexiglass:} La legge di Snell descrive l'angolo di rifrazione prodotto quando un raggio di luce passa da un mezzo con indice $n_1$ ad un altro mezzo con indice $n_2$.
+\begin{equation}
+ n_1 \sin\theta_i=n_2\sin\theta_r
+\end{equation}
+Consideriamo l'indice di rifrazione dell'aria $n_1=1$ come per il vuoto.
+\\ \textbf{Acqua:}L'ottica geometrica descrive la rifrazione di un raggio di luce passante per un diottro:
+\begin{equation}
+ \frac{n_2}{p}+\frac{n_1}{q}=\frac{(n_2-n_1)}{r}
+\end{equation}
+che è una relazione lineare tra $\frac{1}{q}$ e $\frac{1}{p}$
+
+\subsection{Apparato sperimentale}
+\begin{itemize}
+\item{Banco ottico con sorgente luminosa}
+\item{Semicilindro di plexiglass}
+\item{Diottro sferico riempito d'acqua}
+\item{Metro a nastro con risoluzione di $1mm$}
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Esperimento}
+\subsection{Acquisizione misure}
+\textbf{Plexiglass:} Posizioniamo il semicilindro di plexiglass sulla sua sagoma nella carta millimetrata e abbiamo collimato il raggio di luce muovendo ad una distanza ottimale la 
+fessura davanti alla sorgente di di luce. Giriamo il semicilindro per variare l'angolo di incidenza mantenendo costante il punto di incidenza nel centro del cilindro. Abbiamo preso 10 
+misure di angoli di rifrazione per 10 angoli di rifrazione.
+\\ \textbf{Acqua:}Posizioniamo la sorgente  in modo da esplorare al massimo il range delle misure possibili e muoviamo lo schermo finchè l'immagine non è a fuoco.
+A quel punto misuriamo $p$ e $q$.
+
+\subsection{Analisi Dati}
+I dati misurati per il plexiglas sono i seguenti:
+
+\begin{table}[!htb]
+\centering
+\caption{Plexiglas}
+\label{my-labl}
+\begin{tabular}{l|llllllllll}
+$\theta_i$ & 3.5 & 4.5 & 9.5 & 11.5 & 13.5 & 16.5 & 20.5 & 21.5& 26.5 & 27.5 \\ \hline
+$\theta_r$ & 5.5 & 6.5 & 12.5 & 16.5 & 19.5 & 23.5 & 30.5 & 31.5& 39.5 & 40.5
+\end{tabular}
+\end{table}
+
+ \begin {figure}[!htb]
+\begin{center}
+\includegraphics[width=10cm]{/home/zerch/Documents/UNIPI/LAB1/10Rifrazione/dati/plexiglas.png}
+\end{center}
+\end{figure}
+
+
+I dati misurati per il diottro sono i seguenti:
+
+\begin{table}[!htb]
+\centering
+\caption{Misure Diottro}
+\label{my-labl}
+\begin{tabular}{l|llllll}
+$p$ & 48.5 & 43.5 & 41.5 & 38.5 & 34.5 & 33.5 \\ \hline
+$q$ & 43.5 & 45.5 & 56.5 & 63.5 & 82.5 & 86.5
+\end{tabular}
+\end{table}
+
+ \begin {figure}[!htb]
+\begin{center}
+\includegraphics[width=10cm]{/home/zerch/Documents/UNIPI/LAB1/10Rifrazione/dati/acqua.png}
+\end{center}
+\end{figure}
+
+
+\section{Conclusione}
+
+\end{document}
+
+

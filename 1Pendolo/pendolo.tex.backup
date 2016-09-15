@@ -1,0 +1,236 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{geometry}
+%\usepackage{hyperref}
+\usepackage{makeidx}
+\usepackage{microtype}
+\usepackage{subfig}
+\usepackage{tabularx}
+\usepackage{url}
+\usepackage{varioref}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage[italian, english]{babel}
+\usepackage{mathtools}
+
+
+\addto\captionsenglish{
+  \renewcommand{\contentsname}%
+    {Indice}%
+}
+
+
+
+\title{Laboratorio I: Pendolo semplice\\ Analisi della dipendenza del periodo dalle variabili massa, ampiezza e lunghezza\\
+\begin{large}
+Dipartimento di Fisica E.Fermi - Università di Pisa
+\end{large}}
+
+\author{Di Ubaldo Gabriele}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduzione}
+\subsection{Teoria}
+\textbf{Obiettivo:} Studiare il periodo del pendolo semplice e determinare se esso sia legato proporzionalmente al raggio di oscillazzione, alla massa oscillante e 
+alla ampiezza. 
+Il periodo del pendolo per piccole oscillazioni è dato dalla formula:
+\begin{equation}\label{pendolo}
+T=2\pi\sqrt{\frac{l}{g}}
+\end{equation}
+Ottenuta sviluppando al primo ordine $\sin\theta=\theta$. Il periodo quadro dovrebbe dipendere linearmente dalla lunghezza e non dipendere in alcun modo da massa o dall'ampiezza iniziale.
+
+\section{Introduzione}
+\subsection{Apparato sperimentale}
+\begin{itemize}
+\item{Pendolo semplice fissato alla parete con meccanismo per variare il perno}
+\item{Cronometro di risoluzione $0.01s$)}
+\item{Bilancia di precisione di risoluzione $0.001g$)}
+\item{Metro a nastro di risoluzione $1mm$)}
+\item{Tre solidi regolari di masse: $m_1=85.967g; m_2=53.107g; m_3=31.175g$}
+\item{Anello per appendere i solidi di massa $m_A=0.459g$ e diametro $d_A=10mm$}
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Esperimento}
+\subsection{Dipendenza dalla massa $m$ }
+Durante l'esperimento manteniamo costanti $l$ e $\theta$. Per eliminare possibili errori sistematici abbiamo mantenuto costante la distanza del pendolo dalla parete e abbiamo fatto oscillare il pendolo
+in un piano parallelo alla parete.
+\\Le costanti sono: $l=l_p+l_A+l_m=503mm$; $\theta=0,096\pm0,002 rad$; $d=54$
+Il valore di $\theta$  è stato determinato prendendo un cateto arbitrariamente piccolo ($c=50\pm1mm$), cosicchè da poter approssimare $\sin{\theta}\simeq{\theta}$, secondo 
+l'equazione $\arcsin({\frac{c}{l}})$. Troncando lo sviluppo in serie di Taylor al secondo ordine otteniamo $\sin{0.096}=0.0958\dots$
+\\Fissate le costanti, si decide di cominciare la misurazione con il cronometro a partire dalla seconda oscillazione e di misurare 10 oscillazioni per ridurre l'errore sistematico
+di un fattore 10. Per ogni ampiezza di riferimento sono state effettuate 5 misurazioni.
+Al variare della massa campione e quindi della posizione del centro di massa, è stato necessario modificare il punto di applicazione del pendolo, così come la lunghezza del filo,
+per mantenere tali le costanti precedentemente
+descritte, in quanto varia considerevolmente il centro di massa.
+\\I risultati ottenuti sono descritti dalla seguente tabella:\\
+
+
+
+\begin{table}[!htb]
+\centering
+\begin{tabular}{cccccc}
+\hline
+$M$ & $T_1$ & $T_2$ & $T_3$ & $T_4$ & $T_5$\\
+\hline
+\hline
+$m_1$&14.15&14.25&14.29&14.17&14.24\\
+$m_2$&14.18&14.32&14.13&14.22&14.28\\
+$m_3$&14.31&14.20&14.27&14.19&14.16\\
+
+\end{tabular}
+\caption{Tabella dei periodi risultanti dalla variazione di $m$.}
+\end{table}
+
+\begin{table}[!htb]
+\centering
+\begin{tabular}{cccc}
+\hline
+$M$ & $m_{\tau}$ &$s_{\tau}$&$s_{m}$ \\
+\hline
+\hline
+$m_1$& 14.22 & 0.058\pm0.049 & 0.026\pm0.048\\
+$m_2$& 14.22 & 0.076\pm0.054 & 0.034\pm0.024\\
+$m_3$& 14.22 & 0.062\pm0.043 & 0.028\pm0.019\\
+
+\end{tabular}
+\caption{Statistica dell'esperimento}
+\end{table}
+
+\begin {figure}[!htb]
+\begin{center}
+\includegraphics[width=10cm]{/home/zerch/Documents/latex/Pendolo/grafici/massa.jpeg}
+\end{center}
+\end {figure}
+
+\subsection{Dipendenza dall'ampiezza $\theta$}
+In questo esperimento ci proponiamo di determinare se il periodo $T$ del pendolo, mantenendo costanti $l$ e $m$, varia a seconda di $\theta$. 
+Necessaria all'esperimento è la condizione che la distanza del pendolo dalla parete sia costante, e che quest'ultima sia parallela al piano nel quale l'oscillazione avviene.
+\\Le costanti sono:\\ $l=503\pm1mm$; $m=m_1+m_A=86,426\pm2 g$; $d=54\pm1mm$\\
+Fissate le costanti, si decide di cominciare la misurazione con il cronometro a partire dalla seconda oscillazione e di misurare 10 oscillazioni per ridurre l'errore sistematico
+di un fattore 10. Per ogni ampiezza di riferimento sono state effettuate 5 misurazioni.
+\\I risultati ottenuti sono descritti dalla seguente tabella:\\
+
+
+
+\begin{table}[!htbp]
+\begin{center}
+\begin{tabular}{cccccc}
+\hline
+$\theta$ & $T_1$ & $T_2$ & $T_3$ & $T_4$ & $T_5$ \\
+\hline
+\hline
+$0.174 rad$&14.25&14.28&14.35&14.17&14.14\\
+$0.349 rad$&14.19&14.34&14.16&14.26&14.28\\
+$0.523 rad$&14.33&14.20&14.18&14.31&14.25\\
+$0.698 rad$&14.34&14.22&14.26&14.28&14.33\\
+$0.872 rad$&14.23&14.16&14.24&14.19&14.31\\
+
+\end{tabular}
+\caption{Tabella dei periodi risultanti dalla variazione di $\theta$.}
+\end{center}
+\end{table}
+
+\begin{table}[!htbp]
+\begin{center}
+\begin{tabular}{cccc}
+\hline
+$\theta$ & $m_{\tau}$ & $s_{\tau}$ & $s_{m}$  \\
+\hline
+\hline
+$0.174 rad$ &14.24\pm0.01 &0.085 \pm0.057 &0.038 \pm0.026 \\
+$0.349 rad$ &14.24\pm0.01 &0.072 \pm0.054 &0.032 \pm0.024 \\
+$0.523 rad$ &14.25\pm0.01 &0.066 \pm0.050 &0.031 \pm0.023 \\
+$0.698 rad$ &14.28\pm0.01 &0.050 \pm0.043 &0.022 \pm0.019 \\
+$0.872 rad$ &14.23\pm0.01 &0.057 \pm0.045 &0.025 \pm0.02  \\
+
+\end{tabular}
+\caption{Statistica dell'esperimento}
+\end{center}
+\end{table}
+
+\begin {figure}[!htb]
+\begin{center}
+\includegraphics[width=10cm]{/home/zerch/Documents/latex/Pendolo/grafici/theta.jpeg}
+\end{center}
+\end {figure}
+
+
+\subsection{Dipendenza dalla lunghezza $l$}
+In questo esperimento ci proponiamo di determinare se il periodo $T$ del pendolo, mantenendo costanti $m$ e $\theta$, varia a seconda di $l$.
+\\Le costanti sono:\\$m=m_1+m_A=86,426\pm2 g$;  $\theta=0,096\pm0,002 rad$ $d=54\pm1mm$\\
+Fissate le costanti, si decide di cominciare la misurazione con il cronometro a partire dalla seconda oscillazione e di misurare 10 oscillazioni per ridurre l'errore sistematico
+di un fattore 10. Per ogni ampiezza di riferimento sono state effettuate 5 misurazioni.
+Al variare della lunghezza del filo, è stato necessario variare il punto di applicazione del pendolo, in modo tale da far restare costante $\theta$.
+\\I risultati ottenuti sono descritti dalla seguente tabella:\\
+
+\begin{table}[!htb]
+\begin{center}
+\begin{tabular}{cccccc}
+\hline
+$l$ & $T_1$ & $T_2$ & $T_3$ & $T_4$ & $T_5$ \\
+\hline
+\hline
+$l_1$&14.48&14.62&14.54&14.34&14.38\\
+$l_2$&15.35&15.42&15.21&15.24&15.45\\
+$l_3$&16.40&16.22&16.36&16.27&16.44\\
+$l_4$&17.21&17.25&17.15&17.09&17.28\\
+$l_5$&17.81&17.71&17.69&17.85&17.88\\
+
+\end{tabular}
+\caption{Tabella dei periodi risultanti dalla variazione di $l$.}
+\end{center}
+\end{table}
+
+\begin{table}[!htb]
+\begin{center}
+\begin{tabular}{cccc}
+\hline
+$l$ & $m_{\tau}$ & $s_{\tau}$ & $s_{m}$ \\
+\hline
+\hline
+$l_1$&14.47\pm0.01 &0.114\pm0.067 &0.051\pm0.03\\
+$l_2$&15.33\pm0.01 &0.106\pm0.066 &0.048\pm0.03\\
+$l_3$&16.33\pm0.01 &0.091\pm0.062 &0.041\pm0.028\\
+$l_4$&17.19\pm0.01 &0.076\pm0.056 &0.034\pm0.025\\
+$l_5$&17.78\pm0.01 &0.085\pm0.06  &0.038\pm0.027\\
+
+\end{tabular}
+\caption{Statistica dell'esperimento}
+\end{center}
+\end{table}
+
+\begin {figure}[!htb]
+\begin{center}
+\includegraphics[width=10cm]{/home/zerch/Documents/latex/Pendolo/grafici/lunghezza.jpeg}
+\end{center}
+\end {figure}
+
+\pagebreak
+\section{Conclusione}
+In base ai risultati ottenuti dagli esperimenti, si può assumere la dipendenza del periodo del pendolo solo in funzione di $l$, escludendo,quindi, $m$ e $\theta$, per i quali i 
+valori risultano invariati. Le nostre osservazioni quindi concordano con il modello per cui:\\ 
+
+\begin{center}
+$T=2\pi\sqrt{\frac{l}{g}}$
+\end{center}
+\end{document}
+
+
+
+
+
+
+

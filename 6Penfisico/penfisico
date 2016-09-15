@@ -1,0 +1,147 @@
+
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{geometry}
+%\usepackage{hyperref}
+\usepackage{makeidx}
+\usepackage{microtype}
+\usepackage{subfig}
+\usepackage{tabularx}
+\usepackage{url}
+\usepackage{varioref}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage[italian]{babel}
+\usepackage{mathtools}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{gensymb}
+
+
+
+\title{Laboratorio I: Pendolo fisico\\ Misura del periodo.\\
+\begin{large}
+Dipartimento di Fisica E.Fermi - Università di Pisa
+\end{large}}
+
+\author{Di Ubaldo Gabriele}
+\date{25 Novembre 2015}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduzione}
+\subsection{Teoria}
+\textbf{Obiettivo:} Studiare il moto di un asta metallica appesa e fatta ruotare a diverse distanze dal suo centro di massa grazie a dei fori su essa.
+\\L'asta viene fissata un un punto di sospensione $P$ ad una distanza $d$ dal suo centro di massa. Consideriamo la forza di gravita come agente sul centro di massa, essa esercita un momento torcente
+rispetto al polo P quando il pendolo viene ruotato di $\theta$ rispetto all'equilibrio che vale $\tau = -mgd\sin{\theta}$ in cui possiamo approssimare $\sin{theta}=\theta$ per angoli piccoli.
+L'equazione differenziale che descrive il moto armonico è:
+\begin{equation}
+ \frac{d^2\theta}{dt^2}+\frac{mgd}{I}\theta=0
+\end{equation}
+Dove I è il momento di inerzia rispetto a P che vale:
+\begin{equation}
+I=I_{cm}+md^2=\frac{ml^2}{12}+md^2
+\end{equation}
+Si ha quindi che il periodo di oscillazione è
+\begin{equation}
+ T_0=2\pi\sqrt{\frac{l^2/12+d^2}{gd}}
+\end{equation}
+
+\subsection{Apparato sperimentale}
+\begin{itemize}
+\item{Asta metallica forata}
+\item{Supporto di sospensione}
+\item{Cronometro di risoluzione $0.01s$}
+\item{Calibro ventesimale di risoluzione $0.05mm$}
+\item{Metro a nastro di risoluzione $1mm$}
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Esperimento}
+\subsection{Acquisizione misure}
+Siccome il periodo di oscillazzione non è dipendente dall'angolo ho preso angoli piccoli di ampiezza indeterminata, sotto ai $15\degree$. Ho effettuato 3 misurazioni per ognuno dei 
+10 poli di oscillazione diversi per un totale di 30 misurazioni. La lunghezza della sbarra $l=104.4cm\pm0.1mm$. Considerando l'asta a densità costante il centro di massa si trova a $52.2cm\pm0.05mm$ dagli estremi.
+I fori si trovano a distanza reciproca di $10cm\pm 0.05 mm$. I periodi misurati si riferiscono a 5 oscillazioni complete.
+
+\begin{table}[!htb]
+\centering
+\caption{Misurazioni}
+\label{my-label}
+\begin{tabular}{l|ccc}
+$d(cm)$ & \multicolumn{3}{c}{Periodi ($s$)}                                                 \\ \hline
+42.2    & 7.97                      & 8.05                      & 8.05                      \\
+32.2    & 7.82                      & 7.81                      & 7.78                      \\
+22.2    & 7.94                      & 7.97                      & 7.97                      \\
+12.2    & 9.36                      & 9.34                      & 9.33                      \\
+2.2     & 12.18                     & 12.21                     & 12.28                     \\
+47.7    & 8.16                      & 8.25                      & 8.2                       \\
+37.7    & 7.94                      & 7.88                      & 7.83                      \\
+27.7    & 7.76                      & 7.72                      & 7.87                      \\
+17.7    & 8.21                      & 8.31                      & 8.36                      \\
+7.7     & \multicolumn{1}{l}{10.8} & \multicolumn{1}{l}{10.76} & \multicolumn{1}{l}{10.87}
+\end{tabular}
+\end{table}
+
+
+\subsection{Analisi dei dati}
+É stata calcolata la media dei tempi con la relativa deviazione standard e il valore atteso per ogni media:
+\begin{equation}\label{stddev}
+s_{\tau}=\sqrt{\frac{1}{n-1}\sum_{i=1}^{n}(\tau_i-m_\tau)^2}
+\end{equation}
+
+
+\begin{table}[!htb]
+\centering
+\caption{Analisi dati}
+\label{my-label}
+\begin{tabular}{c|ccc}
+$d(cm)$ & Valore atteso              & $M_T$         & $\sigma_T$   \\ \hline
+42.2    & \multicolumn{1}{c|}{8.01}  & 8.023  & 0.0461 \\
+32.2    & \multicolumn{1}{c|}{7.8}   & 7.803  & 0.0208   \\
+22.2    & \multicolumn{1}{c|}{7.97}  & 7.96   & 0.0173 \\
+12.2    & \multicolumn{1}{c|}{9.34}  & 9.343  & 0.0152 \\
+2.2     & \multicolumn{1}{c|}{12.2}  & 12.223 & 0.0513 \\
+47.7    & \multicolumn{1}{c|}{8.2}   & 8.203  & 0.0450 \\
+37.7    & \multicolumn{1}{c|}{7.89}  & 7.883  & 0.0550 \\
+27.7    & \multicolumn{1}{c|}{7.8}   & 7.783  & 0.0776 \\
+17.7    & \multicolumn{1}{c|}{8.33}  & 8.293  & 0.0763 \\
+7.7     & \multicolumn{1}{c|}{10.82} & 10.81   & 0.0556
+\end{tabular}
+\end{table}
+
+\pagebreak
+\subsection{Grafici}
+Il seguente grafico  descrive la correlazione fra $d$ e il periodo $T$.
+
+ \begin {figure}[!htb]
+\begin{center}
+\includegraphics[width=10cm]{/home/zerch/Documents/latex/6Penfisico/grafici/penfis.jpeg}
+\end{center}
+\end{figure}
+
+
+
+
+\section{Conclusione}
+Calcoliamo il $\chi^2$ con la formula:
+\begin{equation}
+ \chi^2=\sum(\frac{T_{exp}-T_M}{\sigma_T})^2
+\end{equation}
+Il risultato è $\chi^2=1.025$ che è un valore accetabile poichè i punti della funzione sono 10 e l'errore su $\chi^2$ è uguale alla radice del doppio
+dei gradi di libertà.
+Il punto di minimo teorico si trova in $\frac{l}{sqrt{12}}$ cioè $l=30.14cm$ e in effetti dal grafico osserviamo che è un valore corretto.
+
+\end{document}
+
+

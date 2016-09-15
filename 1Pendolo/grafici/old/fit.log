@@ -1,0 +1,159 @@
+
+
+*******************************************************************************
+Sat Oct 24 19:55:34 2015
+
+
+FIT:    data read from '/home/zerch/Documents/latex/Pendolo/grafici/massa.dat' using 1:2:3
+        format = x:z:s
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 3
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.20408e+09       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 14392.4
+
+initial set of free parameter values
+
+m               = 1
+b               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0.421668
+rel. change during last iteration : -4.66362e-10
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.649359
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.421668
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = 0.000115257      +/- 4.995e-05    (43.34%)
+b               = 2.01746          +/- 0.00305      (0.1512%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m               1.000 
+b              -0.930  1.000 
+
+
+*******************************************************************************
+Sat Oct 24 19:56:28 2015
+
+
+FIT:    data read from '/home/zerch/Documents/latex/Pendolo/grafici/massa.dat' using 1:2:3
+        format = x:z:s
+        x range restricted to [0.00000 : 100.000]
+        #datapoints = 3
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.20408e+09       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 14392.4
+
+initial set of free parameter values
+
+m               = 1
+b               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0.421668
+rel. change during last iteration : -4.66362e-10
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.649359
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.421668
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = 0.000115257      +/- 4.995e-05    (43.34%)
+b               = 2.01746          +/- 0.00305      (0.1512%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m               1.000 
+b              -0.930  1.000 
+
+
+*******************************************************************************
+Sun Oct 25 10:18:29 2015
+
+
+FIT:    data read from '/home/zerch/Documents/latex/Pendolo/grafici/theta.dat' using 1:2:3
+        format = x:z:s
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 5
+function used for fitting: f(x)
+
+
+*******************************************************************************
+Sun Oct 25 10:18:43 2015
+
+
+FIT:    data read from '/home/zerch/Documents/latex/Pendolo/grafici/theta.dat' using 1:2:3
+        format = x:z:s
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 5
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Sun Oct 25 10:19:08 2015
+
+
+FIT:    data read from '/home/zerch/Documents/latex/Pendolo/grafici/theta.dat' using 1:2:3
+        format = x:z:s
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 5
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 150049            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 300.392
+
+initial set of free parameter values
+
+m               = 1
+b               = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 20.4265
+rel. change during last iteration : -2.61134e-07
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.60938
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.80885
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = 0.00213171       +/- 0.01433      (672.3%)
+b               = 2.02985          +/- 0.009235     (0.455%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m               1.000 
+b              -0.935  1.000 

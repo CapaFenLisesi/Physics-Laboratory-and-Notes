@@ -1,0 +1,11 @@
+\select@language {italian}
+\select@language {italian}
+\contentsline {section}{\numberline {1}Introduzione}{1}
+\contentsline {subsection}{\numberline {1.1}Teoria}{1}
+\contentsline {subsection}{\numberline {1.2}Apparato sperimentale}{2}
+\contentsline {section}{\numberline {2}Esperimento}{2}
+\contentsline {subsection}{\numberline {2.1}Acquisizione dati}{2}
+\contentsline {subsection}{\numberline {2.2}Misure}{3}
+\contentsline {section}{\numberline {3}Analisi dati}{4}
+\contentsline {subsection}{\numberline {3.1}Fit ed elaborazione dati}{5}
+\contentsline {section}{\numberline {4}Conclusioni}{8}

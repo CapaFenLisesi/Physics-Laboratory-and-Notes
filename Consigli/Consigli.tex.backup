@@ -1,0 +1,64 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{geometry}
+%\usepackage{hyperref}
+\usepackage{makeidx}
+\usepackage{microtype}
+\usepackage{subfig}
+\usepackage{tabularx}
+\usepackage{url}
+\usepackage{varioref}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage[italian]{babel}
+\usepackage{mathtools}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{verbatim}
+\usepackage{float}
+
+
+
+\title{Laboratorio I: Misura di $g$ con una molla \\ Analisi della dipendenza del periodo e l'allungamento dalla massa\\
+\begin{large}
+Dipartimento di Fisica E.Fermi - Università di Pisa
+\end{large}}
+
+\author{Di Ubaldo Gabriele}
+\date{}
+
+\begin{document}
+
+
+\maketitle
+
+
+\begin {figure}[H]
+\begin{center}
+\includegraphics[width=3cm]{/home/zerch/Documents/UNIPI/Fisica1/images/unipi.jpg}
+\end{center}
+\end{figure}
+
+
+\section{Consigli per le relazioni}
+\begin{enumerate}
+ \item Cerca di dare una spiegazione per ogni fenomeno/misura/risultato. Non lasciare niente senza spiegare.
+ \item Scrivi la probabilità che il $\chi^2$ aumenti ripetendo le misure usando fourmilab.ch
+ \item Scrivi gli errori per ogni misura (puoi includere una footnote per dire che gli errori di misura sono quelli degli strumenti)
+ \item L'ultima cifra significativa di qualunque risultato dovrebbe essere dello stesso ordine dell'incertezza: $9.81\pm0.31$ è sbagliato; $9.8\pm0.3$ è giusto perchè l'errore deve sempre essere arrotondato ad una cifra significativa!
+ \item Scrivi che programma e che algoritmo (Marquardt-Levenberg) hai usato per fare il fit.
+ \item Metti usepackage{fancyhdr}  e pagestyle{fancy} all'inizio.
+ \item Includi sempre le unità di misura!
+ 
+\end{enumerate}
+
+
+
+
+\end{document}

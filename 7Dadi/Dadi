@@ -1,0 +1,85 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{geometry}
+%\usepackage{hyperref}
+\usepackage{makeidx}
+\usepackage{microtype}
+\usepackage{subfig}
+\usepackage{tabularx}
+\usepackage{url}
+\usepackage{varioref}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage[italian]{babel}
+\usepackage{mathtools}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{gensymb}
+
+
+
+\title{Laboratorio I: Lancio dei dadi\\ Controllo del $\chi^2$ nella distribuzione\\
+\begin{large}
+Dipartimento di Fisica E.Fermi - Università di Pisa
+\end{large}}
+
+\author{Di Ubaldo Gabriele\\Giannelli Martina\\Torosantucci Andrea}
+\date{17 Febbraio 2016}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduzione}
+\subsection{Teoria}
+La distribuzione di probabilità per il lancio dei dadi è una distribuzione poissooniana per un numero finito di eventi che si approssima ad una distribuzione gaussiana per infiniti eventi.
+Attraverso un calcolatore possiamo simulare diversi lanci di dadi in modo casuale e testare se la distibuzione è effettivamente descritta da una poissoniana o una gaussiana.
+Abbiamo scelto di simulare il lancio di due dadi 10000 volte e contare come eventi le somme dei dadi da 2 a 12.
+
+\subsection{Apparato sperimentale}
+\begin{itemize}
+\item{Ambiente di programmazione Pyzo}
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Esperimento}
+\subsection{Acquisizione misure}
+Abbiamo simulato la distribuzione del lancio di due dadi con Python.. Il programma ha calcolato media e deviazione standard per poi fare il test del $\chi^2$ e ha riportato le misure
+effettuate su un istogramma da cui si può osservare che la distribuzione tende ad una gaussiana.
+
+ \begin {figure}[!htb]
+\begin{center}
+\includegraphics[width=10cm]{/home/zerch/Documents/latex/7Dadi/grafico.jpeg}
+\end{center}
+\end{figure}
+
+
+\subsection{Analisi dei dati}
+La media calcolata dal programma è:
+
+formula chi
+
+
+\subsection{Grafici}
+
+ \begin {figure}[!htb]
+\begin{center}
+\includegraphics[width=10cm]{/home/zerch/Documents/latex/4Piano/grafici/piano.jpeg}
+\end{center}
+\end{figure}
+
+\section{Conclusione}
+
+\end{document}
+
+

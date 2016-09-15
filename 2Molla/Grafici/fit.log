@@ -1,0 +1,1166 @@
+
+
+*******************************************************************************
+Sun Oct 25 11:04:00 2015
+
+
+FIT:    data read from '/home/zerch/Documents/latex/Pendolo/grafici/lunghezza.dat' using 1:2:3
+        format = x:z:s
+        #datapoints = 5
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.39791e+11       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 118540
+
+initial set of free parameter values
+
+m               = 1
+b               = 1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.706593
+rel. change during last iteration : -1.86449e-07
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.485315
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.235531
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = 0.00399394       +/- 9.78e-06     (0.2449%)
+b               = 0.0228437        +/- 0.006726     (29.44%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m               1.000 
+b              -0.991  1.000 
+
+
+*******************************************************************************
+Sun Oct 25 11:06:52 2015
+
+
+FIT:    data read from '/home/zerch/Documents/latex/Pendolo/grafici/lunghezza.dat' using 1:2:3
+        format = x:z:s
+        #datapoints = 5
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.39791e+11       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 118540
+
+initial set of free parameter values
+
+m               = 1
+b               = 1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.706593
+rel. change during last iteration : -1.86449e-07
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.485315
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.235531
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = 0.00399394       +/- 9.78e-06     (0.2449%)
+b               = 0.0228437        +/- 0.006726     (29.44%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m               1.000 
+b              -0.991  1.000 
+
+
+*******************************************************************************
+Tue Nov  3 14:44:46 2015
+
+
+FIT:    data read from '/home/zerch/massamolla' using 1:2:3
+        format = x:z:s
+        x range restricted to [0.00000 : 70.0000]
+        #datapoints = 2
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.141336          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.561372
+
+initial set of free parameter values
+
+m               = 1
+b               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.40242e-32
+abs. change during last iteration : -3.86724e-19
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+m               = 0.33           
+b               = 18.55          
+
+
+*******************************************************************************
+Tue Nov  3 15:15:50 2015
+
+
+FIT:    data read from '/home/zerch/massaperiodo' using 1:2:3
+        format = x:z:s
+        x range restricted to [0.00000 : 70.0000]
+BREAK:          No data to fit 
+
+
+
+*******************************************************************************
+Tue Nov  3 15:16:12 2015
+
+
+FIT:    data read from '/home/zerch/massaperiodo' using 1:2:3
+        format = x:z:s
+        x range restricted to [0.00000 : 70.0000]
+BREAK:          No data to fit 
+
+
+
+*******************************************************************************
+Tue Nov  3 15:17:20 2015
+
+
+FIT:    data read from '/home/zerch/massaperiodo.dat'  using 1:2:3
+        format = x:z:s
+        x range restricted to [0.00000 : 70.0000]
+BREAK:          No data to fit 
+
+
+
+*******************************************************************************
+Tue Nov  3 15:21:28 2015
+
+
+FIT:    data read from '/home/zerch/massaperiodo' using 1:2:3
+        format = x:z:s
+BREAK:          No data to fit 
+
+
+
+*******************************************************************************
+Tue Nov  3 15:24:49 2015
+
+
+FIT:    data read from '/home/zerch/massaperiodo' using 1:2:3
+        format = x:z:s
+BREAK:          No data to fit 
+
+
+
+*******************************************************************************
+Tue Nov  3 15:25:16 2015
+
+
+FIT:    data read from '/home/zerch/massaperiodo' using 0.1:0.2:0.3
+        format = x:z:s
+        #datapoints = 10
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : inf               delta(WSSR)/WSSR   : -nan
+ delta(WSSR) : -nan              limit for stopping : 1e-05
+ lambda	  : -nan
+
+initial set of free parameter values
+
+m               = 1
+b               = 1
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : inf
+rel. change during last iteration : -nan
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : inf
+variance of residuals (reduced chisquare) = WSSR/ndf   : inf
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = 1                +/- -nan         (nan%)
+b               = 1                +/- -nan         (nan%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m                -nan 
+b                -nan   -nan 
+
+
+*******************************************************************************
+Tue Nov  3 15:25:55 2015
+
+
+FIT:    data read from '/home/zerch/massaperiodo' using 0.1:0.2:0.3
+        format = x:z:s
+        #datapoints = 10
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : inf               delta(WSSR)/WSSR   : -nan
+ delta(WSSR) : -nan              limit for stopping : 1e-05
+ lambda	  : -nan
+
+initial set of free parameter values
+
+m               = 1
+b               = 1
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : inf
+rel. change during last iteration : -nan
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : inf
+variance of residuals (reduced chisquare) = WSSR/ndf   : inf
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = 1                +/- -nan         (nan%)
+b               = 1                +/- -nan         (nan%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m                -nan 
+b                -nan   -nan 
+
+
+*******************************************************************************
+Tue Nov  3 15:29:11 2015
+
+
+FIT:    data read from '/home/zerch/massaperiodo' using 0.1:0.2
+        format = x:z
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : nan               delta(WSSR)/WSSR   : 0
+ delta(WSSR) : nan               limit for stopping : 1e-05
+ lambda	  : nan
+
+initial set of free parameter values
+
+m               = nan
+b               = 1
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : nan
+abs. change during last iteration : nan
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : nan
+variance of residuals (reduced chisquare) = WSSR/ndf   : nan
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = nan              +/- nan          (nan%)
+b               = 1                +/- nan          (nan%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m                 nan 
+b                 nan    nan 
+
+
+*******************************************************************************
+Tue Nov  3 15:29:14 2015
+
+
+FIT:    data read from '/home/zerch/massaperiodo' using 0.1:0.2
+        format = x:z
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : nan               delta(WSSR)/WSSR   : 0
+ delta(WSSR) : nan               limit for stopping : 1e-05
+ lambda	  : nan
+
+initial set of free parameter values
+
+m               = nan
+b               = 1
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : nan
+abs. change during last iteration : nan
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : nan
+variance of residuals (reduced chisquare) = WSSR/ndf   : nan
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = nan              +/- nan          (nan%)
+b               = 1                +/- nan          (nan%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m                 nan 
+b                 nan    nan 
+
+
+*******************************************************************************
+Tue Nov  3 15:29:37 2015
+
+
+FIT:    data read from '/home/zerch/massaperiodo' using 1:2
+        format = x:z
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : nan               delta(WSSR)/WSSR   : 0
+ delta(WSSR) : nan               limit for stopping : 1e-05
+ lambda	  : nan
+
+initial set of free parameter values
+
+m               = nan
+b               = 1
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : nan
+abs. change during last iteration : nan
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : nan
+variance of residuals (reduced chisquare) = WSSR/ndf   : nan
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = nan              +/- nan          (nan%)
+b               = 1                +/- nan          (nan%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m                 nan 
+b                 nan    nan 
+
+
+*******************************************************************************
+Tue Nov  3 15:29:39 2015
+
+
+FIT:    data read from '/home/zerch/massaperiodo' using 1:2
+        format = x:z
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : nan               delta(WSSR)/WSSR   : 0
+ delta(WSSR) : nan               limit for stopping : 1e-05
+ lambda	  : nan
+
+initial set of free parameter values
+
+m               = nan
+b               = 1
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : nan
+abs. change during last iteration : nan
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : nan
+variance of residuals (reduced chisquare) = WSSR/ndf   : nan
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = nan              +/- nan          (nan%)
+b               = 1                +/- nan          (nan%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m                 nan 
+b                 nan    nan 
+
+
+*******************************************************************************
+Tue Nov  3 15:29:48 2015
+
+
+FIT:    data read from '/home/zerch/massaperiodo' using 1:2
+        format = x:z
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 16562.2           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 28.4033
+
+initial set of free parameter values
+
+m               = 1
+b               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0.000106897
+rel. change during last iteration : -1.20442e-14
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00365542
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.33621e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = 0.00816121       +/- 8.049e-05    (0.9862%)
+b               = 0.0714545        +/- 0.003232     (4.523%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m               1.000 
+b              -0.934  1.000 
+
+
+*******************************************************************************
+Tue Nov  3 15:34:04 2015
+
+
+FIT:    data read from '/home/zerch/massaperiodo' using 1:2
+        format = x:z
+        x range restricted to [0.00000 : 70.0000]
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 16562.2           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 28.4033
+
+initial set of free parameter values
+
+m               = 1
+b               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0.000106897
+rel. change during last iteration : -1.20442e-14
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00365542
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.33621e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = 0.00816121       +/- 8.049e-05    (0.9862%)
+b               = 0.0714545        +/- 0.003232     (4.523%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m               1.000 
+b              -0.934  1.000 
+
+
+*******************************************************************************
+Wed Nov  4 14:03:05 2015
+
+
+FIT:    data read from '/home/zerch/massamolla' using 1:2:3
+        format = x:z:s
+        x range restricted to [0.00000 : 70.0000]
+        #datapoints = 10
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 60697.2           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 142.017
+
+initial set of free parameter values
+
+m               = 1
+b               = 1
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1.38788
+rel. change during last iteration : -9.28034e-06
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.416515
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.173485
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = 0.196485         +/- 0.001834     (0.9335%)
+b               = 20.6618          +/- 0.07366      (0.3565%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m               1.000 
+b              -0.934  1.000 
+
+
+*******************************************************************************
+Wed Nov  4 14:29:12 2015
+
+
+FIT:    data read from '/home/zerch/massaperiodo.dat' using 1:2:3
+        format = x:z:s
+        #datapoints = 10
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : inf               delta(WSSR)/WSSR   : -nan
+ delta(WSSR) : -nan              limit for stopping : 1e-05
+ lambda	  : inf
+
+initial set of free parameter values
+
+m               = 1
+b               = 1
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : inf
+rel. change during last iteration : -nan
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : inf
+variance of residuals (reduced chisquare) = WSSR/ndf   : inf
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = 1                +/- -nan         (nan%)
+b               = 1                +/- -nan         (nan%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m                -nan 
+b                -nan   -nan 
+
+
+*******************************************************************************
+Wed Nov  4 14:29:23 2015
+
+
+FIT:    data read from '/home/zerch/massaperiodo.dat' using 1:2:3
+        format = x:z:s
+        #datapoints = 10
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : inf               delta(WSSR)/WSSR   : -nan
+ delta(WSSR) : -nan              limit for stopping : 1e-05
+ lambda	  : inf
+
+initial set of free parameter values
+
+m               = 1
+b               = 1
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : inf
+rel. change during last iteration : -nan
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : inf
+variance of residuals (reduced chisquare) = WSSR/ndf   : inf
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = 1                +/- -nan         (nan%)
+b               = 1                +/- -nan         (nan%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m                -nan 
+b                -nan   -nan 
+
+
+*******************************************************************************
+Wed Nov  4 14:29:26 2015
+
+
+FIT:    data read from '/home/zerch/massaperiodo.dat' using 1:2:3
+        format = x:z:s
+        #datapoints = 10
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : nan               delta(WSSR)/WSSR   : 0
+ delta(WSSR) : nan               limit for stopping : 1e-05
+ lambda	  : nan
+
+initial set of free parameter values
+
+m               = nan
+b               = 1
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : nan
+abs. change during last iteration : nan
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : nan
+variance of residuals (reduced chisquare) = WSSR/ndf   : nan
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = nan              +/- nan          (nan%)
+b               = 1                +/- nan          (nan%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m                 nan 
+b                 nan    nan 
+
+
+*******************************************************************************
+Wed Nov  4 14:29:41 2015
+
+
+FIT:    data read from '/home/zerch/massaperiodo.dat' using 1:2:3
+        format = x:z:s
+        #datapoints = 10
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : nan               delta(WSSR)/WSSR   : 0
+ delta(WSSR) : nan               limit for stopping : 1e-05
+ lambda	  : nan
+
+initial set of free parameter values
+
+m               = nan
+b               = 1
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : nan
+abs. change during last iteration : nan
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : nan
+variance of residuals (reduced chisquare) = WSSR/ndf   : nan
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = nan              +/- nan          (nan%)
+b               = 1                +/- nan          (nan%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m                 nan 
+b                 nan    nan 
+
+
+*******************************************************************************
+Wed Nov  4 14:29:53 2015
+
+
+FIT:    data read from '/home/zerch/massaperiodo.dat' using 1:2:3
+        format = x:z:s
+        #datapoints = 10
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : nan               delta(WSSR)/WSSR   : 0
+ delta(WSSR) : nan               limit for stopping : 1e-05
+ lambda	  : nan
+
+initial set of free parameter values
+
+m               = nan
+b               = 1
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : nan
+abs. change during last iteration : nan
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : nan
+variance of residuals (reduced chisquare) = WSSR/ndf   : nan
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = nan              +/- nan          (nan%)
+b               = 1                +/- nan          (nan%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m                 nan 
+b                 nan    nan 
+
+
+*******************************************************************************
+Wed Nov  4 14:29:57 2015
+
+
+FIT:    data read from '/home/zerch/massaperiodo.dat' using 1:2:3
+        format = x:z:s
+        #datapoints = 10
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : nan               delta(WSSR)/WSSR   : 0
+ delta(WSSR) : nan               limit for stopping : 1e-05
+ lambda	  : nan
+
+initial set of free parameter values
+
+m               = nan
+b               = 1
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : nan
+abs. change during last iteration : nan
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : nan
+variance of residuals (reduced chisquare) = WSSR/ndf   : nan
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = nan              +/- nan          (nan%)
+b               = 1                +/- nan          (nan%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m                 nan 
+b                 nan    nan 
+
+
+*******************************************************************************
+Wed Nov  4 14:30:04 2015
+
+
+FIT:    data read from '/home/zerch/massaperiodo.dat' using 1:2:3
+        format = x:z:s
+        #datapoints = 10
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : inf               delta(WSSR)/WSSR   : -nan
+ delta(WSSR) : -nan              limit for stopping : 1e-05
+ lambda	  : inf
+
+initial set of free parameter values
+
+m               = 1
+b               = 1
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : inf
+rel. change during last iteration : -nan
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : inf
+variance of residuals (reduced chisquare) = WSSR/ndf   : inf
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = 1                +/- -nan         (nan%)
+b               = 1                +/- -nan         (nan%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m                -nan 
+b                -nan   -nan 
+
+
+*******************************************************************************
+Wed Nov  4 14:30:24 2015
+
+
+FIT:    data read from '/home/zerch/massaperiodo.dat' using 1:2:3
+        format = x:z:s
+        #datapoints = 10
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : nan               delta(WSSR)/WSSR   : 0
+ delta(WSSR) : nan               limit for stopping : 1e-05
+ lambda	  : nan
+
+initial set of free parameter values
+
+m               = nan
+b               = 1
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : nan
+abs. change during last iteration : nan
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : nan
+variance of residuals (reduced chisquare) = WSSR/ndf   : nan
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = nan              +/- nan          (nan%)
+b               = 1                +/- nan          (nan%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m                 nan 
+b                 nan    nan 
+
+
+*******************************************************************************
+Wed Nov  4 14:30:26 2015
+
+
+FIT:    data read from '/home/zerch/massaperiodo.dat' using 1:2:3
+        format = x:z:s
+        #datapoints = 10
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : nan               delta(WSSR)/WSSR   : 0
+ delta(WSSR) : nan               limit for stopping : 1e-05
+ lambda	  : nan
+
+initial set of free parameter values
+
+m               = nan
+b               = 1
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : nan
+abs. change during last iteration : nan
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : nan
+variance of residuals (reduced chisquare) = WSSR/ndf   : nan
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = nan              +/- nan          (nan%)
+b               = 1                +/- nan          (nan%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m                 nan 
+b                 nan    nan 
+
+
+*******************************************************************************
+Wed Nov  4 14:30:34 2015
+
+
+FIT:    data read from '/home/zerch/massaperiodo.dat' using 1:2:3
+        format = x:z:s
+        #datapoints = 10
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : nan               delta(WSSR)/WSSR   : 0
+ delta(WSSR) : nan               limit for stopping : 1e-05
+ lambda	  : nan
+
+initial set of free parameter values
+
+m               = nan
+b               = 1
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : nan
+abs. change during last iteration : nan
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : nan
+variance of residuals (reduced chisquare) = WSSR/ndf   : nan
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = nan              +/- nan          (nan%)
+b               = 1                +/- nan          (nan%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m                 nan 
+b                 nan    nan 
+
+
+*******************************************************************************
+Wed Nov  4 14:30:41 2015
+
+
+FIT:    data read from '/home/zerch/massaperiodo.dat' using 1:2:3
+        format = x:z:s
+        #datapoints = 10
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.27022e+13       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 782946
+
+initial set of free parameter values
+
+m               = 1
+b               = 1
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 1.04992
+rel. change during last iteration : -1.2336e-12
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.362271
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.13124
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = 0.00831743       +/- 6.08e-05     (0.731%)
+b               = 0.0688899        +/- 0.002128     (3.089%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m               1.000 
+b              -1.000  1.000 
+
+
+*******************************************************************************
+Fri Nov  6 16:53:59 2015
+
+
+FIT:    data read from '/home/zerch/Documents/latex/3Densita/densita.dat' using 1:2
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 454.776           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 10.9688
+
+initial set of free parameter values
+
+m               = 1
+b               = 1
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 0.397196
+rel. change during last iteration : -9.2655e-12
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.363866
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.132399
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = 0.199377         +/- 0.02151      (10.79%)
+b               = 4.45118          +/- 0.333        (7.482%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m               1.000 
+b              -0.872  1.000 
+
+
+*******************************************************************************
+Fri Nov  6 17:00:09 2015
+
+
+FIT:    data read from '/home/zerch/Documents/latex/3Densita/densita.dat' using 1:2
+        format = x:z
+        x range restricted to [1.00000 : 50.0000]
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.397196          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 10.9688
+
+initial set of free parameter values
+
+m               = 0.199377
+b               = 4.45118
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 0.397196
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.363866
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.132399
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = 0.199377         +/- 0.02151      (10.79%)
+b               = 4.45118          +/- 0.333        (7.482%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m               1.000 
+b              -0.872  1.000 

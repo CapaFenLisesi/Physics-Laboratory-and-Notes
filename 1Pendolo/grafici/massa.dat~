@@ -1,0 +1,9 @@
+# mydata.dat
+# gnuplot ignores lines that start with #
+#
+# M  T^2     uncertainty in y
+# ————————————————————————————————————————————————-
+31.175  2.022   0.003
+53.107  2.022   0.003
+85.967  2.028   0.003
+
