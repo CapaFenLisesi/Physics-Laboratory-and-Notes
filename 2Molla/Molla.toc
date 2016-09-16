@@ -1,9 +1,0 @@
-\select@language {english}
-\contentsline {section}{\numberline {1}Introduzione}{1}
-\contentsline {subsection}{\numberline {1.1}Teoria}{1}
-\contentsline {subsection}{\numberline {1.2}Apparato sperimentale}{2}
-\contentsline {section}{\numberline {2}Esperimento}{2}
-\contentsline {subsection}{\numberline {2.1}Acquisizione misure}{2}
-\contentsline {subsection}{\numberline {2.2}Analisi dei dati}{2}
-\contentsline {subsection}{\numberline {2.3}Grafici}{3}
-\contentsline {section}{\numberline {3}Conclusione}{4}

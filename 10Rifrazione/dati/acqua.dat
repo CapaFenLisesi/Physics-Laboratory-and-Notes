@@ -1,8 +1,0 @@
-#p      q      deltaq	deltap
-#  plot '/home/zerch/Documents/UNIPI/LAB1/10Rifrazione/dati/acqua.dat' using (1/$1):(1/$2):($3/($1*$1)):($4/($2*$2)) with boxerror
-48.5	43.5	1	1
-43.5	47.5	1	1
-41.5	54.5	1	1
-38.5	63.5	1	1
-34.5	82.5	1	1
-33.5	86.5	1	1
